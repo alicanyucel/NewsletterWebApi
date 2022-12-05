@@ -40,5 +40,24 @@ namespace Newsletter.BackendApi.Controllers
             await _context.SaveChangesAsync();
             return Ok("kayit işlemi başarılı.");
         }
+        [HttpPost("[action]")]
+        public async Task<IActionResult> Login(LoginDto LoginDto)
+        {
+            var user = await _context.Users.Where(p => p.UserName == LoginDto.UserName).FirstOrDefaultAsync();
+            if (user == null)
+            
+                user = await _context.Users.Where(p => p.Email == LoginDto.UserName).FirstOrDefaultAsync();
+
+             if(user==null)
+                
+                return BadRequest("kullanıcı adı veya emal adresi bulunamadi");
+                
+            if(user.Password==LoginDto.Password)
+            
+                return Ok("Kullanıcı girişi başarılı");
+            
+            else
+            return Ok("şifre hatali");
+        }
     }
 }
