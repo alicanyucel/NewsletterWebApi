@@ -59,5 +59,6 @@ namespace Newsletter.BackendApi.Controllers
             else
             return Ok("şifre hatali");
         }
+        //başarı ile tamamlandı.
     }
 }
