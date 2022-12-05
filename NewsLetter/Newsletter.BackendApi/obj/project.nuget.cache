@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rfu3mUTv8xB2d7h4WJWBCHZeOAIjHZT3CESbgBRUz3Hcv1AiLMY61dH8WsMXvPi1d+xENN+ILn7qlU0OcScfKg==",
+  "dgSpecHash": "HHPO5AVn5NZBGUDtj4milrZZFRgSZHuEGIpyFf15Q2S4SxOuc+SEwSl7d622a0gzru28wcqrDHGcL9Mq6kolgg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alican\\Source\\Repos\\NewsletterApi.BackendProject\\NewsLetter\\Newsletter.BackendApi\\Newsletter.BackendApi.csproj",
+  "projectFilePath": "C:\\Users\\Alican\\source\\Repos\\NewsletterApi.BackendProject\\NewsLetter\\Newsletter.BackendApi\\Newsletter.BackendApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alican\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Alican\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

@@ -30,6 +30,7 @@ namespace Newsletter.BackendApi.Controllers
         [HttpPost]
         public async Task<IActionResult> Post(NewsLetter newsLetter)
         {
+            newsLetter.CreateDate = DateTime.Now;
             await _context.Newsletters.AddAsync(newsLetter);
             await _context.SaveChangesAsync();
             return Ok("kayıt eklendi");

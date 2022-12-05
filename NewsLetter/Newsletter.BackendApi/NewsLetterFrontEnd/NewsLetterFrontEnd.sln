@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "NewsLetterFrontEnd", "NewsLetterFrontEnd\NewsLetterFrontEnd.esproj", "{52BBA345-357B-4FFA-A7FC-08C66CBCB7CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52BBA345-357B-4FFA-A7FC-08C66CBCB7CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52BBA345-357B-4FFA-A7FC-08C66CBCB7CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52BBA345-357B-4FFA-A7FC-08C66CBCB7CF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{52BBA345-357B-4FFA-A7FC-08C66CBCB7CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52BBA345-357B-4FFA-A7FC-08C66CBCB7CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52BBA345-357B-4FFA-A7FC-08C66CBCB7CF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69CBBA90-8B66-4A70-97AF-38DE7C54F0D4}
+	EndGlobalSection
+EndGlobal
