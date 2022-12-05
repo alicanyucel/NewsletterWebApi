@@ -18,13 +18,13 @@ namespace Newsletter.BackendApi.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
-            var result = await _context.Users.FindAsync(id);
+            var result = await _context.Newsletters.FindAsync(id);
             return Ok(result);
         }
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            var result = await _context.Users.ToListAsync();
+            var result = await _context.Newsletters.ToListAsync();
             return Ok(result);
         }
         [HttpPost]
