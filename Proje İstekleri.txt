@@ -1,0 +1,13 @@
+Ali Can Bey İyi Günler.
+Sizden istenilen basit bir modül yazmanız olacaktır.Proje Uı ve Api den oluşmaktadır.Uı de kullanacağınız teknolojiyi size bırakıyoruz.Modern bir Javascript frameworklerinden birini kullanabilirsiniz.Bizim tercihimiz Reactdir.
+Veri tabanı olarak Mssql,mysql,firebase,sqllite,mongodb,postgresql,oracle kullanabilirsiniz.Bizim tercihimiz mssql kullanmanızdır.
+Backend kısmında .Net Core 5.0,6.0,7.0 kullanabilirsiniz.Şirket olarak biz .Net 6.0 kullanıyoruz.
+Proje gereksinimleriniz aşağıdaki gibidir.
+Proje 4 sayfadan oluşacaktır.
+1)Kaydol
+2)Giriş Yap
+3)Haber Listesi
+4)Haber ekle,güncelle sayfalarından oluşmaktadır.
+Admin rolündeki kullanıcı önce sisteme kayıt olacak ve giriş yapıp haber ekleme,listeleme,silme,güncelleme işlemlerini yapabilecektir.
+Projeyi 6.12.2022 saat 12:00 ye kadar yapıp github adresini mailimize göndermenizi rica ederiz.
+İyi çalışmalar.
