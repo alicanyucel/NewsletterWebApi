@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\NewsLetter",
+    "\\NewsLetter\\Newsletter.BackendApi",
+    "\\NewsLetter\\Newsletter.BackendApi\\Dtos",
+    "\\NewsLetter\\Newsletter.BackendApi\\Migrations",
+    "\\NewsLetter\\Newsletter.BackendApi\\Models",
+    "\\NewsLetter\\Newsletter.BackendApi\\obj"
   ],
-  "SelectedNode": "\\NewsLetter.sln",
+  "SelectedNode": "\\NewsLetter\\Newsletter.BackendApi",
   "PreviewInSolutionExplorer": false
 }

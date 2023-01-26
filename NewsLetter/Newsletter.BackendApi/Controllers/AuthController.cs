@@ -54,7 +54,7 @@ namespace Newsletter.BackendApi.Controllers
                 
             if(user.Password==LoginDto.Password)
             
-                return Ok("Kullanıcı girişi başarılı");
+                return Ok(user);
             
             else
             return Ok("şifre hatali");
