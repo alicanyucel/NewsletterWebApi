@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Newsletter.BackendApi.Models;
+using Newsletter.BackendApi.Result;
 
 namespace Newsletter.BackendApi.Controllers
 {
@@ -33,14 +34,22 @@ namespace Newsletter.BackendApi.Controllers
             newsLetter.CreateDate = DateTime.Now;
             await _context.Newsletters.AddAsync(newsLetter);
             await _context.SaveChangesAsync();
-            return Ok("kayıt eklendi");
+            var results = new ResultModel()
+            {
+                Message = "ekleme işlemi başarılı"
+            };
+            return Ok(resuls);
         }
         [HttpPut]
         public async Task<IActionResult> Put(NewsLetter newsLetter)
         {
             _context.Newsletters.Update(newsLetter);
             await _context.SaveChangesAsync();
-            return Ok("kayıt güncellendi");
+            var result = new ResultModel()
+            {
+                Message = "guncellme işlemi nbaşarılı"
+            };
+            return Ok(result);
 
         }
         [HttpDelete]
@@ -49,7 +58,12 @@ namespace Newsletter.BackendApi.Controllers
             var result = await _context.Newsletters.FindAsync(id);
             _context.Newsletters.Remove(result);
             await _context.SaveChangesAsync();
-            return Ok("kayıt silindi");
+            var resultmodel = new ResultModel()
+            {
+                Message = "silme işlemi nbaşarılı"
+            };
+            return Ok(resultmodel);
+          
 
         }
     }
