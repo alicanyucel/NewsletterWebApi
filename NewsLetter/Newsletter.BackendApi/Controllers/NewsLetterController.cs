@@ -38,7 +38,7 @@ namespace Newsletter.BackendApi.Controllers
             {
                 Message = "ekleme işlemi başarılı"
             };
-            return Ok(resuls);
+            return Ok(results);
         }
         [HttpPut]
         public async Task<IActionResult> Put(NewsLetter newsLetter)
@@ -47,7 +47,7 @@ namespace Newsletter.BackendApi.Controllers
             await _context.SaveChangesAsync();
             var result = new ResultModel()
             {
-                Message = "guncellme işlemi nbaşarılı"
+                Message = "guncelleme işlemi nbaşarılı"
             };
             return Ok(result);
 
